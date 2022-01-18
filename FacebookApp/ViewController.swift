@@ -8,12 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var someText: String = "My name is Nika Iobishvili"
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        sayHello()
     }
-
-
+    func sayHello() {
+        print(someText)
+    }
 }
-
